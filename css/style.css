@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* navbar style code starting here */
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.navbar ul li a:hover{
+    background-color: #00a8ad;
+}
+
+.logo, .logo span{
+    font-family: 'Lobster', cursive;
+}
+
+.logo span{
+    color: #00a8ad;;
+}
+
+/* navbar style code end here */
+/* header section style code starting here */
+
+header{
+    background-image: url('../image/bg1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-section{
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-text1{
+    font-size: 4rem;
+    margin-bottom: 0.7rem;
+}
+
+.p-text1{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    width: 45rem;
+}
+
+.btn{
+    background-color: #00a8ad;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem 4rem;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.btn:hover{
+    background-color: #037074;
+    color: wheat;
+}
+
+/* header section style code end here */
+/* service section style code starting here */
+
+#services{
+    display: flex;
+    flex: 1;
+}
+
+.container{
+    margin: 25px auto;
+    width: 74rem;
+}
+
+.services-h3{
+    text-align: center;
+}
+
+.cards-p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px auto;
+}
+
+.cards{
+    text-align: center;
+    padding: 1.4rem;
+}
+
+.cards i{
+    background-color: #00a8ad;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    padding: 2rem;
+    margin-bottom: 10px;
+}
+
+/* service section style code end here */
+/* about section style code starting here */
+
+#about{
+    background-image: url('../image/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.about-sections{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.about-h1{
+    color: white;
+    text-align: right;
+    padding: 8rem 6rem 0rem 40rem;
+    font-size: 3rem;
+}
+
+.about-p{
+    color: white;
+    text-align: right;
+    padding: 1rem 6rem 0rem 55rem;
+}
+
+.about-btn{
+    float: right;
+    margin: 1rem 6rem 0 0;
+    background-color: #00a8ad;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 3rem;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.about-btn:hover{
+    background-color: #037074;
+    color: wheat;
+}
+
+/* about section style code end here */
+/* contact section style code starting here */
+
+#contact{
+    height: 95vh;
+}
+
+#contact img{
+    width: 40rem;
+    height: 30rem;
+    float: left;
+    margin-top: 2rem;
+}
+
+.form{
+    text-align: left;
+    margin-left: 50rem;
+    margin-top: 5.6rem;
+}
+
+input{
+    margin-bottom: 0.7rem;
+    height: 3.5rem;
+    width: 28rem;
+    border: 10px solid #4e8598;
+}
+
+.contact-h1{
+    font-size: 3rem;
+    color: #00a8ad;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.form label, .form input{
+    font-size: 1.2rem;
+}
+
+.contact-btn{
+    background-color: #4e8598;
+    padding: 0.7rem 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+/* contact section style code end here */
+/* footer section style code starting here */
+
+footer{
+    background-color: #384a4f;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+}
+
+footer h1{
+    font-family: 'Lobster', cursive;
+    color: #00a8ad;
+}
+
+/* footer section style code end here */
